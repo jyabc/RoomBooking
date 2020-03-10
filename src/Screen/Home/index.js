@@ -37,8 +37,25 @@ export default class Home extends Component {
     }
 
     handleTimeChange = (res) => {
+        const MIN_TIME = moment('08:00 AM', TIME_FORMAT);
+        const MAX_TIME = moment('07:30 PM', TIME_FORMAT);
+
+        //check if selected time within range
+        if (res < MIN_TIME || res > MAX_TIME) {
+            return Alert.alert('Available hours: ' + MIN_TIME.format(TIME_FORMAT) + ' to ' + MAX_TIME.format(TIME_FORMAT));
+        }
+
+        //check if selected time end with 00 or 30 minutes
+        const minutes = moment(res).minutes();
+
+        if (minutes != '00' && minutes != '30') {
+            return Alert.alert('Please select only 00 or 30 minutes');
+        }
+
+        const time = moment(res).format(TIME_FORMAT);
+
         this.setState({
-            time: moment(res).format(TIME_FORMAT),
+            time: time,
         }, () => {
             this.submitForm();
         });
@@ -50,7 +67,7 @@ export default class Home extends Component {
         if (date != DEFAULT_STRING && time != DEFAULT_STRING) {
             NetInfo.fetch().then(state => {
                 if (!state.isConnected) {
-                    Alert.alert('No network connection');
+                    Alert.alert('Error', 'No network connection');
                 } else {
                     this.setState({
                         roomList: [], // clear existing list
@@ -150,11 +167,11 @@ export default class Home extends Component {
                         display='clock'
                         onChange={(e) => this.handleTimeChange(e)}
                     />
-                    <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: 15 }}>
+                    <View style={styles.listHeader}>
                         <Text style={styles.text}>Rooms</Text>
 
-                        <TouchableWithoutFeedback onPress={()=>{this.showModal()}}>
-                            <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                        <TouchableWithoutFeedback onPress={() => { this.showModal() }}>
+                            <View style={styles.sortBtn}>
                                 <Text style={{ fontWeight: 'bold' }}>Sort </Text>
                                 <Icon name='sort' />
                             </View>
@@ -179,8 +196,8 @@ export default class Home extends Component {
                     isVisible={isShowModal} //todo
                     title='Sort'
                     options={SORT_OPTIONS}
-                    action={(e)=>this.handleSort(e)}
-                    hideModal={()=>this.hideModal()}
+                    action={(e) => this.handleSort(e)}
+                    hideModal={() => this.hideModal()}
                 />
             </>
         );
@@ -190,5 +207,15 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
     text: {
         color: '#a0a0a0',
+    },
+    listHeader: {
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        paddingTop: 15
+    },
+    sortBtn: {
+        flexDirection: 'row',
+        alignItems: 'center'
     }
 });

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View } from 'react-native';
+import { View, Alert } from 'react-native';
 import { WebView } from 'react-native-webview';
 import Button from 'Component/Button';
 
@@ -17,6 +17,15 @@ export default class QRResult extends Component {
         const { nativeEvent } = syntheticEvent;
         const errUrl = nativeEvent.url;
 
+        // nativeEvent.code == -2
+        if (nativeEvent.description.indexOf('INTERNET_DISCONNECTED') > -1) {
+            return Alert.alert('Error', 'No network connection', [
+                { text: 'OK', onPress: () => this.props.navigation.goBack() },
+            ],
+                { cancelable: false });
+        }
+
+        // nativeEvent.code == -10
         // handling for intent url since the default webview not supporting
         if (errUrl.indexOf('intent://') > -1) {
             const fallback_url = errUrl.split(';')[4].split('=')[1];
