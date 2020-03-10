@@ -98,9 +98,9 @@ const styles = StyleSheet.create({
         shadowColor: '#000',
         shadowOffset: {
             width: 0,
-            height: 5
+            height: 3
         },
-        shadowRadius: 15,
+        shadowRadius: 5,
         shadowOpacity: 1.0
     },
     title: {

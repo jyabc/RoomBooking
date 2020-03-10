@@ -12,26 +12,30 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D2C06634ECD665C84E616F2 /* libPods-RoomBookingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D4BF1A95D9B4922ED3F1DC5 /* libPods-RoomBookingTests.a */; };
+		1E8A2852C24541D48C72E962 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D71078EDA604EDAB322C666 /* Entypo.ttf */; };
+		2CA2B94FF2EC4570A15B1E36 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD99A68D36A4B63A1FCA2E9 /* Fontisto.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RoomBookingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RoomBookingTests.m */; };
 		3FB53EB3175C4952ABA87688 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 275C1248715B429DBFCE5817 /* AntDesign.ttf */; };
-		1E8A2852C24541D48C72E962 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D71078EDA604EDAB322C666 /* Entypo.ttf */; };
-		69E1A5FB9CDD41C48CAB63E0 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3DEAA927F14419F88DAFF3C /* EvilIcons.ttf */; };
-		BF19D3F41B0E474C832F45FD /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4191197E1B8C4AC48109B15D /* Feather.ttf */; };
-		6E58E8CC9BFE4378B3DD4D0C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47F5022E0F24B1B8BD8B026 /* FontAwesome.ttf */; };
-		F986F73075934956863D2799 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3774387DC891473C971E0601 /* FontAwesome5_Brands.ttf */; };
-		749CDE2F82EC4F6EA4BA4B9F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798D906B50864E61B2537567 /* FontAwesome5_Regular.ttf */; };
 		3FB8B16B7EEC4ED2BDE7AB9C /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF9777CDF64DB8837F22C6 /* FontAwesome5_Solid.ttf */; };
-		2CA2B94FF2EC4570A15B1E36 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8CD99A68D36A4B63A1FCA2E9 /* Fontisto.ttf */; };
-		887F035F894A4E1F9DD9A8BF /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008E7E5F07144758934636BB /* Foundation.ttf */; };
-		DAE781C9BA0E4BDC9404D5D3 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12957D4AFA9746158B8EEA55 /* Ionicons.ttf */; };
 		4FBC7E2A2F124530973F11B1 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C286A0854E8843858A4915CE /* MaterialCommunityIcons.ttf */; };
-		8F871E5F819440A88E64CB47 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE05C66D852415C8DF6FB53 /* MaterialIcons.ttf */; };
-		7337E391799D4E128FBD954E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7665EB39320D43398EA7A401 /* Octicons.ttf */; };
-		A15A2221DDE34B44856A42F9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97D3D66BF2E3494A8B710258 /* SimpleLineIcons.ttf */; };
 		62C8028349FC43CEB2DE51D1 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A60F02159EF44F9EA9DCFB97 /* Zocial.ttf */; };
+		6838402721F39328E7E1CD54 /* libPods-RoomBooking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D8469F4A29FA0BE5587068 /* libPods-RoomBooking-tvOS.a */; };
+		692A66AAD18A28640AF75580 /* libPods-RoomBooking-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7BFA221E2A8811B7321F5E4 /* libPods-RoomBooking-tvOSTests.a */; };
+		69E1A5FB9CDD41C48CAB63E0 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F3DEAA927F14419F88DAFF3C /* EvilIcons.ttf */; };
+		6E58E8CC9BFE4378B3DD4D0C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F47F5022E0F24B1B8BD8B026 /* FontAwesome.ttf */; };
+		7337E391799D4E128FBD954E /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7665EB39320D43398EA7A401 /* Octicons.ttf */; };
+		749CDE2F82EC4F6EA4BA4B9F /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 798D906B50864E61B2537567 /* FontAwesome5_Regular.ttf */; };
+		872EDA00868BB90E52B39CFD /* libPods-RoomBooking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA5F85463CE67BC5B5043BEC /* libPods-RoomBooking.a */; };
+		887F035F894A4E1F9DD9A8BF /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008E7E5F07144758934636BB /* Foundation.ttf */; };
+		8F871E5F819440A88E64CB47 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AE05C66D852415C8DF6FB53 /* MaterialIcons.ttf */; };
+		A15A2221DDE34B44856A42F9 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97D3D66BF2E3494A8B710258 /* SimpleLineIcons.ttf */; };
+		BF19D3F41B0E474C832F45FD /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4191197E1B8C4AC48109B15D /* Feather.ttf */; };
+		DAE781C9BA0E4BDC9404D5D3 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12957D4AFA9746158B8EEA55 /* Ionicons.ttf */; };
+		F986F73075934956863D2799 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3774387DC891473C971E0601 /* FontAwesome5_Brands.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008E7E5F07144758934636BB /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356EE1AD99517003FC87E /* RoomBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RoomBookingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomBookingTests.m; sourceTree = "<group>"; };
+		06F74407124FA18599830735 /* Pods-RoomBooking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBooking.debug.xcconfig"; path = "Target Support Files/Pods-RoomBooking/Pods-RoomBooking.debug.xcconfig"; sourceTree = "<group>"; };
+		12957D4AFA9746158B8EEA55 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RoomBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RoomBooking/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RoomBooking/AppDelegate.m; sourceTree = "<group>"; };
@@ -63,26 +70,35 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RoomBooking/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RoomBooking/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RoomBooking/main.m; sourceTree = "<group>"; };
+		21DFE4A807254F4643727CBE /* Pods-RoomBooking-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBooking-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomBooking-tvOSTests/Pods-RoomBooking-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		275C1248715B429DBFCE5817 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		2AE05C66D852415C8DF6FB53 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RoomBooking-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RoomBooking-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RoomBooking-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RoomBooking-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3774387DC891473C971E0601 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		3BFF9777CDF64DB8837F22C6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		3D71078EDA604EDAB322C666 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		4191197E1B8C4AC48109B15D /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		4809585EC7CC5D78D85F788D /* Pods-RoomBooking-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBooking-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RoomBooking-tvOSTests/Pods-RoomBooking-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B360DA9A927C66AD7662CDE /* Pods-RoomBookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBookingTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomBookingTests/Pods-RoomBookingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5FFF7C0EE713E1ACC1B8FB40 /* Pods-RoomBooking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBooking.release.xcconfig"; path = "Target Support Files/Pods-RoomBooking/Pods-RoomBooking.release.xcconfig"; sourceTree = "<group>"; };
+		6901F5CCE7EF1AC2E553D0B7 /* Pods-RoomBooking-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBooking-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RoomBooking-tvOS/Pods-RoomBooking-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6D4BF1A95D9B4922ED3F1DC5 /* libPods-RoomBookingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomBookingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7665EB39320D43398EA7A401 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		798D906B50864E61B2537567 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		7D38230DAC9500404332A936 /* Pods-RoomBookingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBookingTests.release.xcconfig"; path = "Target Support Files/Pods-RoomBookingTests/Pods-RoomBookingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8CD99A68D36A4B63A1FCA2E9 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		933EE9886C7EF7EE50D4D5E1 /* Pods-RoomBooking-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBooking-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RoomBooking-tvOS/Pods-RoomBooking-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		97D3D66BF2E3494A8B710258 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		A60F02159EF44F9EA9DCFB97 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		C286A0854E8843858A4915CE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C2D8469F4A29FA0BE5587068 /* libPods-RoomBooking-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomBooking-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5F85463CE67BC5B5043BEC /* libPods-RoomBooking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomBooking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		275C1248715B429DBFCE5817 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3D71078EDA604EDAB322C666 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F3DEAA927F14419F88DAFF3C /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4191197E1B8C4AC48109B15D /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F47F5022E0F24B1B8BD8B026 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3774387DC891473C971E0601 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		798D906B50864E61B2537567 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		3BFF9777CDF64DB8837F22C6 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8CD99A68D36A4B63A1FCA2E9 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		008E7E5F07144758934636BB /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		12957D4AFA9746158B8EEA55 /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C286A0854E8843858A4915CE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2AE05C66D852415C8DF6FB53 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7665EB39320D43398EA7A401 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		97D3D66BF2E3494A8B710258 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A60F02159EF44F9EA9DCFB97 /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F3DEAA927F14419F88DAFF3C /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		F47F5022E0F24B1B8BD8B026 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		F7BFA221E2A8811B7321F5E4 /* libPods-RoomBooking-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RoomBooking-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D2C06634ECD665C84E616F2 /* libPods-RoomBookingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872EDA00868BB90E52B39CFD /* libPods-RoomBooking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6838402721F39328E7E1CD54 /* libPods-RoomBooking-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692A66AAD18A28640AF75580 /* libPods-RoomBooking-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,11 +168,39 @@
 			name = RoomBooking;
 			sourceTree = "<group>";
 		};
+		1EE86010E59C4CFBBF0AEC20 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				275C1248715B429DBFCE5817 /* AntDesign.ttf */,
+				3D71078EDA604EDAB322C666 /* Entypo.ttf */,
+				F3DEAA927F14419F88DAFF3C /* EvilIcons.ttf */,
+				4191197E1B8C4AC48109B15D /* Feather.ttf */,
+				F47F5022E0F24B1B8BD8B026 /* FontAwesome.ttf */,
+				3774387DC891473C971E0601 /* FontAwesome5_Brands.ttf */,
+				798D906B50864E61B2537567 /* FontAwesome5_Regular.ttf */,
+				3BFF9777CDF64DB8837F22C6 /* FontAwesome5_Solid.ttf */,
+				8CD99A68D36A4B63A1FCA2E9 /* Fontisto.ttf */,
+				008E7E5F07144758934636BB /* Foundation.ttf */,
+				12957D4AFA9746158B8EEA55 /* Ionicons.ttf */,
+				C286A0854E8843858A4915CE /* MaterialCommunityIcons.ttf */,
+				2AE05C66D852415C8DF6FB53 /* MaterialIcons.ttf */,
+				7665EB39320D43398EA7A401 /* Octicons.ttf */,
+				97D3D66BF2E3494A8B710258 /* SimpleLineIcons.ttf */,
+				A60F02159EF44F9EA9DCFB97 /* Zocial.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				DA5F85463CE67BC5B5043BEC /* libPods-RoomBooking.a */,
+				C2D8469F4A29FA0BE5587068 /* libPods-RoomBooking-tvOS.a */,
+				F7BFA221E2A8811B7321F5E4 /* libPods-RoomBooking-tvOSTests.a */,
+				6D4BF1A95D9B4922ED3F1DC5 /* libPods-RoomBookingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,6 +221,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1EE86010E59C4CFBBF0AEC20 /* Resources */,
+				DE95D946449A9DD9B76BE894 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,29 +239,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1EE86010E59C4CFBBF0AEC20 /* Resources */ = {
-			isa = "PBXGroup";
+		DE95D946449A9DD9B76BE894 /* Pods */ = {
+			isa = PBXGroup;
 			children = (
-				275C1248715B429DBFCE5817 /* AntDesign.ttf */,
-				3D71078EDA604EDAB322C666 /* Entypo.ttf */,
-				F3DEAA927F14419F88DAFF3C /* EvilIcons.ttf */,
-				4191197E1B8C4AC48109B15D /* Feather.ttf */,
-				F47F5022E0F24B1B8BD8B026 /* FontAwesome.ttf */,
-				3774387DC891473C971E0601 /* FontAwesome5_Brands.ttf */,
-				798D906B50864E61B2537567 /* FontAwesome5_Regular.ttf */,
-				3BFF9777CDF64DB8837F22C6 /* FontAwesome5_Solid.ttf */,
-				8CD99A68D36A4B63A1FCA2E9 /* Fontisto.ttf */,
-				008E7E5F07144758934636BB /* Foundation.ttf */,
-				12957D4AFA9746158B8EEA55 /* Ionicons.ttf */,
-				C286A0854E8843858A4915CE /* MaterialCommunityIcons.ttf */,
-				2AE05C66D852415C8DF6FB53 /* MaterialIcons.ttf */,
-				7665EB39320D43398EA7A401 /* Octicons.ttf */,
-				97D3D66BF2E3494A8B710258 /* SimpleLineIcons.ttf */,
-				A60F02159EF44F9EA9DCFB97 /* Zocial.ttf */,
+				06F74407124FA18599830735 /* Pods-RoomBooking.debug.xcconfig */,
+				5FFF7C0EE713E1ACC1B8FB40 /* Pods-RoomBooking.release.xcconfig */,
+				6901F5CCE7EF1AC2E553D0B7 /* Pods-RoomBooking-tvOS.debug.xcconfig */,
+				933EE9886C7EF7EE50D4D5E1 /* Pods-RoomBooking-tvOS.release.xcconfig */,
+				21DFE4A807254F4643727CBE /* Pods-RoomBooking-tvOSTests.debug.xcconfig */,
+				4809585EC7CC5D78D85F788D /* Pods-RoomBooking-tvOSTests.release.xcconfig */,
+				5B360DA9A927C66AD7662CDE /* Pods-RoomBookingTests.debug.xcconfig */,
+				7D38230DAC9500404332A936 /* Pods-RoomBookingTests.release.xcconfig */,
 			);
-			name = Resources;
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -221,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RoomBookingTests" */;
 			buildPhases = (
+				24FC436DBE1BEB11D2D506AF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -239,18 +281,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RoomBooking" */;
 			buildPhases = (
+				EE10081BEBF04BE0EBACD989 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				13823234B9F8C750E9E99D39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = RoomBooking;
-			productName = "RoomBooking";
+			productName = RoomBooking;
 			productReference = 13B07F961A680F5B00A75B9A /* RoomBooking.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -258,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RoomBooking-tvOS" */;
 			buildPhases = (
+				67BA915ABF90AAEB6BE3F7A8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -277,6 +322,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RoomBooking-tvOSTests" */;
 			buildPhases = (
+				C1D54F1EEDC0D19A0C565C36 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -401,6 +447,76 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
+		13823234B9F8C750E9E99D39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoomBooking/Pods-RoomBooking-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoomBooking/Pods-RoomBooking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24FC436DBE1BEB11D2D506AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomBookingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -414,6 +530,72 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		67BA915ABF90AAEB6BE3F7A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomBooking-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D54F1EEDC0D19A0C565C36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomBooking-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE10081BEBF04BE0EBACD989 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomBooking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -520,6 +702,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B360DA9A927C66AD7662CDE /* Pods-RoomBookingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -542,6 +725,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D38230DAC9500404332A936 /* Pods-RoomBookingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -561,6 +745,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06F74407124FA18599830735 /* Pods-RoomBooking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -580,6 +765,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FFF7C0EE713E1ACC1B8FB40 /* Pods-RoomBooking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -598,6 +784,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6901F5CCE7EF1AC2E553D0B7 /* Pods-RoomBooking-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -625,6 +812,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933EE9886C7EF7EE50D4D5E1 /* Pods-RoomBooking-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -652,6 +840,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21DFE4A807254F4643727CBE /* Pods-RoomBooking-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -678,6 +867,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4809585EC7CC5D78D85F788D /* Pods-RoomBooking-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
