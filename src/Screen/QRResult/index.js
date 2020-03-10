@@ -52,7 +52,7 @@ export default class QRResult extends Component {
                     />
                 </View>
                 <View>
-                    <Button text='Back to Home' onPress={() => this.props.navigation.goBack()} />
+                    <Button text='Back to Home' blue onPress={() => this.props.navigation.goBack()} />
                 </View>
             </View>
         );
