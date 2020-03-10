@@ -42,14 +42,14 @@ export default class Home extends Component {
 
         //check if selected time within range
         if (res < MIN_TIME || res > MAX_TIME) {
-            return Alert.alert('Available hours: ' + MIN_TIME.format(TIME_FORMAT) + ' to ' + MAX_TIME.format(TIME_FORMAT));
+            return Alert.alert('Info', 'Operating hours: ' + MIN_TIME.format(TIME_FORMAT) + ' to ' + MAX_TIME.format(TIME_FORMAT));
         }
 
         //check if selected time end with 00 or 30 minutes
         const minutes = moment(res).minutes();
 
         if (minutes != '00' && minutes != '30') {
-            return Alert.alert('Please select only 00 or 30 minutes');
+            return Alert.alert('Info', 'Please select time that ends with 00 or 30');
         }
 
         const time = moment(res).format(TIME_FORMAT);
@@ -119,6 +119,7 @@ export default class Home extends Component {
             roomListSorted: sortedArr
         }, () => {
             this.hideModal();
+            this.goToTop();
         });
     }
 
@@ -135,6 +136,12 @@ export default class Home extends Component {
         return arr.sort((a, b) => parseFloat(a[sortType]) - parseFloat(b[sortType])); //sorting for numbers
     }
 
+    handleBooking = (room) => {
+        if (room.availability == '1') {
+            Alert.alert('Success', 'You\'ve successfully booked room  ' + room.name);
+        }
+    }
+
     showModal = () => {
         this.setState({ isShowModal: true });
     };
@@ -142,6 +149,10 @@ export default class Home extends Component {
     hideModal = () => {
         this.setState({ isShowModal: false });
     };
+
+    goToTop = () => {
+        this.scroll.scrollTo({x: 0, y: 0, animated: true});
+     }
 
     render() {
         const { time, date, roomListSorted, isShowModal } = this.state;
@@ -177,7 +188,7 @@ export default class Home extends Component {
                             </View>
                         </TouchableWithoutFeedback>
                     </View>
-                    <ScrollView>
+                    <ScrollView ref={(c) => {this.scroll = c}}>
                         {
                             roomListSorted.length > 0 && roomListSorted.map((l, i) => (
                                 <ListItem
@@ -186,6 +197,7 @@ export default class Home extends Component {
                                     isAvailable={l.availability == 1}
                                     roomLevel={l.level}
                                     roomCapacity={l.capacity}
+                                    onPress={() => this.handleBooking(l)}
                                 />
                             ))
                         }
@@ -193,7 +205,7 @@ export default class Home extends Component {
                 </View>
 
                 <ModalOption
-                    isVisible={isShowModal} //todo
+                    isVisible={isShowModal}
                     title='Sort'
                     options={SORT_OPTIONS}
                     action={(e) => this.handleSort(e)}
