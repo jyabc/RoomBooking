@@ -13,11 +13,7 @@ export default class CustomDateTimePicker extends Component {
     }
 
     onChange = (selected) => {
-        this.setState({
-            show: false
-        }, () => {
-            this.props.onChange(selected);
-        });
+        this.props.onChange(selected);
     };
 
     showPicker = () => {
@@ -52,6 +48,7 @@ export default class CustomDateTimePicker extends Component {
                     is24Hour={false}
                     display={this.props.display || 'default'}
                     minuteInterval={30}
+                    headerTextIOS={'Pick a ' + this.props.mode}
                 />
             </View>
         );

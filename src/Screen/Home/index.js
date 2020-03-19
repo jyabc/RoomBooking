@@ -26,9 +26,13 @@ export default class Home extends Component {
             sortType: null, // location, capacity, availability
             isShowModal: false,
         };
+
+        this.timePicker = React.createRef();
+        this.datePicker = React.createRef();
     }
 
     handleDateChange = (res) => {
+        this.datePicker.current.hidePicker();
         this.setState({
             date: moment(res).format(DATE_FORMAT),
         }, () => {
@@ -42,17 +46,18 @@ export default class Home extends Component {
 
         //check if selected time within range
         if (res < MIN_TIME || res > MAX_TIME) {
-            return Alert.alert('Info', 'Operating hours: ' + MIN_TIME.format(TIME_FORMAT) + ' to ' + MAX_TIME.format(TIME_FORMAT));
+            return this.showAlert('Info', 'Operating hours: ' + MIN_TIME.format(TIME_FORMAT) + ' to ' + MAX_TIME.format(TIME_FORMAT), this.timePicker);
         }
 
         //check if selected time end with 00 or 30 minutes
         const minutes = moment(res).minutes();
 
         if (minutes != '00' && minutes != '30') {
-            return Alert.alert('Info', 'Please select time that ends with 00 or 30');
+            return this.showAlert('Info', 'Please select time that ends with 00 or 30 ' + minutes, this.timePicker);
         }
 
         const time = moment(res).format(TIME_FORMAT);
+        this.timePicker.current.hidePicker();
 
         this.setState({
             time: time,
@@ -61,21 +66,27 @@ export default class Home extends Component {
         });
     }
 
+    showAlert = (alertTitle, alertMsg, ref) => { //for alert in pickers
+        return Alert.alert(alertTitle, alertMsg, [
+            {
+                text: 'OK', onPress: () => ref.current.hidePicker()
+            }]);
+    }
+
     submitForm = () => {
         const { date, time } = this.state;
 
         if (date != DEFAULT_STRING && time != DEFAULT_STRING) {
             NetInfo.fetch().then(state => {
                 if (!state.isConnected) {
-                    Alert.alert('Error', 'No network connection');
-                } else {
-                    this.setState({
-                        roomList: [], // clear existing list
-                        roomListSorted: []
-                    }, () => {
-                        this.loadData();
-                    });
+                    return Alert.alert('Error', 'No network connection');
                 }
+                this.setState({
+                    roomList: [], // clear existing list
+                    roomListSorted: []
+                }, () => {
+                    this.loadData();
+                });
             });
         }
     }
@@ -103,7 +114,7 @@ export default class Home extends Component {
                 });
             }
         } catch (error) {
-            Alert.alert('call api error');
+            console.log('call api error');
         }
     }
 
@@ -168,6 +179,7 @@ export default class Home extends Component {
                         mode='date'
                         date={date == DEFAULT_STRING ? new Date() : moment(date, DATE_FORMAT).toDate()}
                         onChange={(e) => this.handleDateChange(e)}
+                        ref={this.datePicker}
                     />
 
                     <CustomDateTimePicker
@@ -177,6 +189,7 @@ export default class Home extends Component {
                         date={time == DEFAULT_STRING ? new Date() : moment(time, TIME_FORMAT).toDate()}
                         display='clock'
                         onChange={(e) => this.handleTimeChange(e)}
+                        ref={this.timePicker}
                     />
                     <View style={styles.listHeader}>
                         <Text style={styles.text}>Rooms</Text>
